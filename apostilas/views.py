@@ -32,4 +32,5 @@ def apostila(request, id):
         apostila = apostila
     )
     view.save()
+    print(apostila)
     return render(request, 'apostila.html', {'apostila': apostila, 'views_totais': views_totais, 'views_unicas': views_unicas})
