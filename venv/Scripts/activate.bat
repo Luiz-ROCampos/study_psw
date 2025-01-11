@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ricar\OneDrive\Documentos\Projetos\Pythonando\study_psw\venv
+set VIRTUAL_ENV=C:\Users\ricar\OneDrive\Documentos\Projetos\study_psw\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
